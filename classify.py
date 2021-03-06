@@ -26,7 +26,7 @@ def identify(image1):
 	# retrieve the most likely result, e.g. highest probability
     label = label[0]
     if label:
-	    label1 = "GOOD"
+	    label1 = "HEALTHY"
     else:
-	    label1 = "BAD"
+	    label1 = "NOT HEALTHY"
     return label1 
