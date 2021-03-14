@@ -9,7 +9,7 @@ from keras.models import load_model
 
 
 def identify(image1): 
-    model = load_model("model.h5")
+    model = load_model("model_MobileNetv2.h5")
     #Resize the image to 224x224
     image = load_img(image1, target_size=(224, 224))
     #convert the image pixels to a numpy array
