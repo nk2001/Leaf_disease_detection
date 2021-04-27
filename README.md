@@ -1,2 +1,2 @@
 # Leaf
-Identifying a leaf with possible disease
+Identifying if a leaf is healthy or not using transfer learning and small dataset
